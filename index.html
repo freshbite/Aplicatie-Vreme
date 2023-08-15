@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Limba</button>
+        <div class="dropdown-content">
+          <a href="English/English.html">EN <img src="img/flag-england.png" alt=""></a>
+          <a href="Italiano/Italiano.html">IT <img src="img/flag-italy.png" alt=""></a>
+        </div>
+      </div>
+
+    <div class="principal">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="search">
+            <input type="text" placeholder="Introduceti nume Oras" id="numeOras" value="Bucharest">
+            <button id="Cauta">Cauta</button>
+        </div>
+
+        <div id="result">
+            <h5 id ="Oras"></h5>
+            <h5 id ="Vreme"></h5>
+            <h5 id ="Ora"></h5>
+            <h5 id ="Temp"></h5>
+            <div id ="Range">
+                <h5 id ="Min"></h5>
+                <h5 id ="Max"></h5>
+            </div>
+            <h5 id ="Vant"></h5>
+        </div>
+    </div>
+   
+
+    <script src="javascript.js"></script>
+    <script src="key.js"></script>
+</body>
+</html>
